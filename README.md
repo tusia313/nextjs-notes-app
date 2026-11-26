@@ -1,6 +1,7 @@
 # Next.js Notes App
 
-A clean, retro-styled notes application built with **Next.js (App Router)**, **TypeScript**, **Tailwind CSS**, and **PocketBase**.
+A clean, retro-styled notes application built with **Next.js (App Router)**, **TypeScript**, **Tailwind CSS**, and **PocketBase**. Being a part of the Next.js course, designed **firebase.ui**, developed by me :)
+---
 ![App Preview](./public/preview.png)
 
 ## Tech Stack

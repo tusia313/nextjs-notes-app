@@ -2,11 +2,6 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import "./globals.css";
 
-export const metadata: Metadata = {
-  title: "Notes.exe — Retro Notebook",
-  description: "Prosta aplikacja do notatek w Next.js i PocketBase",
-};
-
 export default function RootLayout({
   children,
 }: Readonly<{

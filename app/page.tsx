@@ -1,7 +1,9 @@
 import Link from "next/link";
 
+//Plik leży w app/page.tsx, Next.js wie, że właśnie ten komponent ma wyrenderować jako treść dla głównego adresu /, a potem wstawić go w miejsce {children} w Twoim RootLayout
 export default function HomePage() {
   return (
+    //główny kontener widoku strony startowej
     <section className="retro-box overflow-hidden">
       {/* Pasek tytułowy okna z lat 90. */}
       <div className="flex items-center justify-between border-b-2 border-[#111111] bg-[#111111] px-4 py-2 text-white">
@@ -23,7 +25,7 @@ export default function HomePage() {
           PocketBase. Przejdź do sekcji notatek, aby przeglądać i dodawać nowe
           wpisy.
         </p>
-
+        {/* po kliknięciu w <Link> przenosi użytkownika pod adres /notes, gdzie Next.js renderuje app/notes/page.tsx wewnątrz tego samego RootLayout. */}
         <div className="pt-2">
           <Link
             href="/notes"
